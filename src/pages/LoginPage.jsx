@@ -88,7 +88,8 @@ const LoginPage =()=> {
           </button>
         </div>
         <p className="forgot-password text-right">
-          Forgot <Link to='/forgot-password'>password?</Link>
+          Forgot <Link to='/forgot-password' className='text-white'>password?</Link>
+          <Link to='sign-up' className='text-white'> Register Now</Link>
             </p>
               </form>
     </div>
